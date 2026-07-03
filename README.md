@@ -3,7 +3,8 @@
 [![CI](https://github.com/arjunbioinfo/moment-of-inertia-tensor-gene-prioritization/actions/workflows/ci.yml/badge.svg)](https://github.com/arjunbioinfo/moment-of-inertia-tensor-gene-prioritization/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
-[![DOI](https://img.shields.io/badge/DOI-10.1002%2Fprot.26226-blue.svg)](https://doi.org/10.1002/prot.26226)
+[![Paper DOI](https://img.shields.io/badge/paper-10.1002%2Fprot.26226-blue.svg)](https://doi.org/10.1002/prot.26226)
+[![Software DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21157913.svg)](https://doi.org/10.5281/zenodo.21157913)
 
 Reference implementation of the alignment-free gene-prioritization method from:
 
