@@ -94,10 +94,13 @@ print(ranking.head(14))
 
 ## Data
 
-`fretrieve.csv` contains two column pairs: `Candidate, Entry` and
-`Experimental, Entry`, where each `Entry` is a UniProt accession. The candidate
-and experimental lists have different lengths, so trailing empty rows are ignored
-when the file is loaded.
+`fretrieve.csv` is a **sample input list** provided to demonstrate the pipeline —
+it is *not* the exact dataset analyzed in the paper. It contains two column pairs,
+`Candidate, Entry` and `Experimental, Entry`, where each `Entry` is a UniProt
+accession. The candidate and experimental lists have different lengths, so
+trailing empty rows are ignored when the file is loaded. Replace this file with
+your own candidate and experimentally verified gene lists to run the method on a
+dataset of interest.
 
 ## Notes
 
