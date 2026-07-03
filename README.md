@@ -1,5 +1,10 @@
 # Prioritizing candidate genes using the moment of inertia tensor
 
+[![CI](https://github.com/arjunbioinfo/moment-of-inertia-tensor-gene-prioritization/actions/workflows/ci.yml/badge.svg)](https://github.com/arjunbioinfo/moment-of-inertia-tensor-gene-prioritization/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
+[![DOI](https://img.shields.io/badge/DOI-10.1002%2Fprot.26226-blue.svg)](https://doi.org/10.1002/prot.26226)
+
 Reference implementation of the alignment-free gene-prioritization method from:
 
 > Thummadi NB, **T Mallikarjuna**, Vindal V, Manimaran P.
@@ -33,9 +38,11 @@ pathway analysis.
 ├── gene_prioritization.ipynb   # end-to-end, documented walkthrough
 ├── tensor_prioritization.py    # reusable library (descriptor, distance, ranking)
 ├── run_example.py              # offline demo: descriptors -> distance matrix -> dendrogram
-├── fretrieve.csv               # candidate & experimental gene lists (UniProt entries)
+├── test_tensor.py              # minimal unit tests (run with pytest)
+├── fretrieve.csv               # sample candidate & experimental gene lists (UniProt entries)
 ├── example_output.png          # figure produced by the example
 ├── requirements.txt
+├── CITATION.cff                # machine-readable citation metadata
 ├── LICENSE
 └── README.md
 ```

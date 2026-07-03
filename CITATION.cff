@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "Moment-of-inertia-tensor gene prioritization"
+abstract: >-
+  Reference implementation of an alignment-free protein sequence descriptor based
+  on the moment of inertia tensor, used to prioritize candidate genes by sequence
+  similarity to known genes.
+type: software
+authors:
+  - family-names: Thippana
+    given-names: Mallikarjuna
+repository-code: "https://github.com/arjunbioinfo/moment-of-inertia-tensor-gene-prioritization"
+license: MIT
+keywords:
+  - bioinformatics
+  - protein-sequences
+  - alignment-free
+  - gene-prioritization
+  - moment-of-inertia-tensor
+preferred-citation:
+  type: article
+  title: "Prioritizing the candidate genes related to cervical cancer using the moment of inertia tensor"
+  authors:
+    - family-names: Thummadi
+      given-names: Neelesh Babu
+    - family-names: T
+      given-names: Mallikarjuna
+    - family-names: Vindal
+      given-names: Vaibhav
+    - family-names: P
+      given-names: Manimaran
+  journal: "Proteins: Structure, Function, and Bioinformatics"
+  volume: 90
+  issue: 2
+  start: 363
+  end: 371
+  year: 2022
+  doi: "10.1002/prot.26226"
