@@ -32,6 +32,34 @@ Applied to cervical cancer, the method surfaced 14 candidate genes highly simila
 to known cervical-cancer genes, which were then examined by GO-term and KEGG
 pathway analysis.
 
+## Applications
+
+This repository is the shared implementation for two studies that use the
+moment-of-inertia-tensor method:
+
+- **Cervical cancer** — Thummadi NB, T Mallikarjuna, Vindal V, Manimaran P.
+  *Prioritizing the candidate genes related to cervical cancer using the moment of
+  inertia tensor.* Proteins. 2022;90(2):363–371.
+  doi:[10.1002/prot.26226](https://doi.org/10.1002/prot.26226)
+- **Lung cancer** — Dwivedi A, Thippana M, Manimaran P, Vindal V.
+  *Prioritization of Lung Cancer Candidate Genes using Moment of Inertia Tensor
+  Analysis.* bioRxiv 2024 (preprint, not peer-reviewed).
+  doi:[10.1101/2024.10.18.619023](https://doi.org/10.1101/2024.10.18.619023)
+
+## Method variants
+
+Two forms of the descriptor are provided:
+
+- `eig_val(sequence)` — the original **unit-mass** tensor (cervical-cancer study).
+- `eig_val_weighted(sequence)` — the **mass-weighted** tensor, which weights the
+  centre of mass and every tensor component by each residue's molecular mass
+  (lung-cancer study). Helpers `principal_moments`, `rotational_energy`, and
+  `angular_momentum` expose the rigid-body quantities derived from the tensor.
+
+> **Note:** the rotational-energy and angular-momentum helpers use the standard
+> rigid-body definitions; set the angular-velocity convention to match the exact
+> formulation in the manuscript you are reproducing.
+
 ## Contents
 
 ```

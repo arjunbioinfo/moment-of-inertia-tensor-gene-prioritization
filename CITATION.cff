@@ -36,3 +36,18 @@ preferred-citation:
   end: 371
   year: 2022
   doi: "10.1002/prot.26226"
+references:
+  - type: article
+    title: "Prioritization of Lung Cancer Candidate Genes using Moment of Inertia Tensor Analysis"
+    authors:
+      - family-names: Dwivedi
+        given-names: Ayushi
+      - family-names: Thippana
+        given-names: Mallikarjuna
+      - family-names: Manimaran
+        given-names: P.
+      - family-names: Vindal
+        given-names: Vaibhav
+    year: 2024
+    doi: "10.1101/2024.10.18.619023"
+    notes: "bioRxiv preprint (not peer-reviewed)"
