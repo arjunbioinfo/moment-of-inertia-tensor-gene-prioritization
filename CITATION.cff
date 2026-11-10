@@ -9,6 +9,7 @@ type: software
 authors:
   - family-names: Thippana
     given-names: Mallikarjuna
+    orcid: "https://orcid.org/0000-0001-8485-8626"
 repository-code: "https://github.com/arjunbioinfo/moment-of-inertia-tensor-gene-prioritization"
 license: MIT
 keywords:
