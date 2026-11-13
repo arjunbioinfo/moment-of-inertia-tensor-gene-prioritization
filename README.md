@@ -161,3 +161,8 @@ If you use this code, please cite the original article:
   doi     = {10.1002/prot.26226}
 }
 ```
+
+## Author
+
+**Mallikarjuna Thippana, PhD** — Computational Biologist, Karolinska Institutet  
+[Portfolio](https://arjunbioinfo.github.io/) · [ORCID](https://orcid.org/0000-0001-8485-8626) · [Google Scholar](https://scholar.google.com/citations?user=NpLUj68AAAAJ) · [GitHub](https://github.com/arjunbioinfo)
